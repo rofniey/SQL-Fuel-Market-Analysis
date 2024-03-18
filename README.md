@@ -92,6 +92,3 @@ The Analysis Results are summarized as follows:
       - 25 271.80 Argetina Pesos.
     - BARBERO HERMANOS S.A.
       - 24 591.60 Argetina Pesos.
-### Recommendations
-
-### Limitations
