@@ -1,0 +1,9 @@
+UPDATE Fuel
+SET [Date] = CONVERT(VARCHAR, CONVERT(DATE, [Date], 103), 23) --Change From DD/MM/YYYY to YYYY/MM/DD (Recognized by Server as Date)
+WHERE TRY_CONVERT(DATE, [Date], 103) IS NOT NULL;
+
+ALTER TABLE
+	Fuel
+ALTER COLUMN
+	[Date] DATE;
+
