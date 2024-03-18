@@ -1,4 +1,3 @@
-```sql
 USE fuel_db;
 SELECT
 	p.[Product Type],
@@ -13,4 +12,3 @@ WHERE
 	p.[Product Type] = 'Gasoil Grade 2'
 GROUP BY
 	p.[Product Type];
-```
