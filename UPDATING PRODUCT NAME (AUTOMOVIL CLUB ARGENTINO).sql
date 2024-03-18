@@ -1,0 +1,8 @@
+UPDATE
+	DIM_Company
+SET
+	[Company Name] = 'AUTOMOVIL CLUB ARGENTINO'
+WHERE [Company Name] LIKE ('%CLUB ARGENTINO');
+
+
+SELECT * FROM DIM_Company WHERE [Company Name] LIKE('%CLUB ARGENTINO');
