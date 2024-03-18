@@ -1,4 +1,0 @@
-ALTER TABLE
-	Fuel
-ALTER COLUMN
-	[Price (Arg Pesos)] DECIMAL(6,2);
